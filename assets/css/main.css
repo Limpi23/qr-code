@@ -1,0 +1,39 @@
+html,
+body {
+  background-color: #d5e1ef; /* Color de fondo más cercano al mostrado en el diseño */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Asegura que la altura cubra toda la ventana */
+  margin: 0;
+  font-family: "Outfit", sans-serif; /* Fuente más cercana */
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px; /* Bordes más redondeados */
+  width: 250px; /* Un poco más ancho */
+  padding: 20px; /* Añadir padding interno para el contenido */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
+  text-align: center;
+}
+
+.qr-code img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Ligeramente redondeado */
+  margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+h3 {
+  font-size: 18px;
+  color: #1f3251; /* Color más oscuro */
+  margin: 0 0 10px 0;
+  font-weight: 700; /* Letra más gruesa */
+}
+
+.letter {
+  font-size: 14px;
+  color: gray; /* Color más oscuro */
+  margin: 0 0 20px 0;
+}
